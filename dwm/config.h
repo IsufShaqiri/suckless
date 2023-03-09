@@ -126,7 +126,7 @@ static Keychord keychords[] = {
     {1, {{MODKEY|Mod1Mask, XK_s}},        spawn,         SHCMD("tabbed -r 2 surf -pe x '.surf/html/homepage.html'") },
 
 
-	{1, {{MODKEY, XK_b}},				  togglebar,      {0} },
+	{1, {{MODKEY|ShiftMask, XK_b}},				  togglebar,      {0} },
 	{1, {{MODKEY, XK_j}},				  focusstack,     {.i = +1 } },
 	{1, {{MODKEY, XK_k}},				  focusstack,     {.i = -1 } },
 	{1, {{MODKEY|ShiftMask, XK_j}},		  rotatestack,    {.i = +1 } },
