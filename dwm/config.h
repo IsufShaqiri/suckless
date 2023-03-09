@@ -18,7 +18,7 @@ static const int vertpadbar         = 7;        /* vertical padding for statusba
  * Otherwise, your default font will be Hack (ttf-hack)
  * JoyPixels (ttf-joypixels) is a dependency for colored fonts and emojis.
  */
-static const char *fonts[]     = {"JetBrainsMono Nerd Font:weight=bold:size=8:antialias=true:hinting=true",
+static const char *fonts[]     = {"JetBrainsMono Nerd Font:weight=bold:size=10:antialias=true:hinting=true",
                                   /* "Hack:size=8:antialias=true:autohint=true", */
                                   "Emoji One:size=10:antialias=true:autohint=true"
 						     	};
@@ -32,7 +32,7 @@ static const char col_4[]  = "#924441"; /* border color focused windows and tags
  * 0xdd adds adds a bit more transparency.
  * Play with the value to get desired transparency.
  */
-static const unsigned int baralpha    = 0xee;
+static const unsigned int baralpha    = 0xdd;
 static const unsigned int borderalpha = OPAQUE;
 static const char *colors[][3]        = {
 	/*               fg         bg         border   */
