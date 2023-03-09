@@ -32,7 +32,7 @@ static const char col_4[]  = "#924441"; /* border color focused windows and tags
  * 0xdd adds adds a bit more transparency.
  * Play with the value to get desired transparency.
  */
-static const unsigned int baralpha    = 0xee;
+static const unsigned int baralpha    = 0xdd;
 static const unsigned int borderalpha = OPAQUE;
 static const char *colors[][3]        = {
 	/*               fg         bg         border   */
